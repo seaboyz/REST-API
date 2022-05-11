@@ -2,7 +2,10 @@
 
 #### Fist step: Restful API design
 ##### query parameters vs path parameters vs header parameters vs body parameters
-![](/images/Screen%20Shot%202022-05-10%20at%2011.14.21%20AM.png)
+ - **Path** parameters for resource pathing through a restful hierarchy of resources
+ - **query** params for anything else that has to do with the content of the request
+ - **headers** for anything that has to do with the request itself, not the contents (request metadata)
+ - JSON **body** for anything that is a resource representation
 ##### Authentication:
 ##### 1. Create a new user account.
 POST /register
